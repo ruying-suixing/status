@@ -37,6 +37,33 @@
   display: none;
 }
 
+@font-face {
+  font-family: "霞鹜文楷";
+  src: url("https://www.luogu.com.cn/fe/api/problem/downloadAttachment/sxbs7wgi");
+  font-weight: normal;
+  font-style: normal;
+}
+body
+  :not(.katex):not(.katex *):not(.fa):not(.fas):not(.far):not(.fab):not(
+    .fal
+  ):not(.fad):not([class*="fa-"]) {
+  font-family: "霞鹜文楷" !important;
+}
+.katex,
+.katex * {
+  font-family: "KaTeX_Main", "Times New Roman", serif !important;
+}
+.fa,
+.fas,
+.far,
+.fab,
+.fal,
+.fad,
+[class*="fa-"] {
+  font-family:
+    "Font Awesome 6 Free", "Font Awesome 5 Free", "FontAwesome" !important;
+  font-weight: 900 !important; /* 适配 solid 图标 */
+}
 * {
   font-family: HarmonyOS_Regular,MiSans,HarmonyOS Sans SC,sans-serif; /* 字体 */
   -ms-overflow-style: none;  /* IE and Edge */
