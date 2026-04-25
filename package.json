@@ -2,14 +2,14 @@
   "name": "uptime-status",
   "version": "1.0.0",
   "private": true,
-  "author": "Ruying-suixing",
-  "url": "https://rusin.cn.mt/",
-  "email": "Haoxuanzhang2014@outlook.com",
+  "author": "JLinmr",
+  "url": "https://www.bsgun.cn",
+  "email": "ruoms@qq.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ruying-suixing/status"
+    "url": "https://github.com/JLinmr/Uptime-Status"
   },
-  "repositoryUrl": "https://github.com/ruying-suixing/status",
+  "repositoryUrl": "https://github.com/JLinmr/Uptime-Status",
   "type": "module",
   "scripts": {
     "dev": "vite",
