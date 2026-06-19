@@ -45,6 +45,7 @@
 
 /* 添加通用卡片样式 */
 @layer components {
+  
   /* 基础卡片样式 */
   .card-base {
     @apply p-4 rounded-xl bg-white dark:bg-gray-800/50 
